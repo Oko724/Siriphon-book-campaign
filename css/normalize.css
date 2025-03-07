@@ -7,6 +7,9 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+* {
+  font-family: "Noto Sans Thai", monospace, monospace !important; /* 1 */
+}
 
 html {
   line-height: 1.15; /* 1 */
@@ -22,6 +25,7 @@ html {
 
 body {
   margin: 0;
+  font-family: "Noto Sans Thai", sans-serif, monospace, monospace; /* 1 */
 }
 
 /**
@@ -61,8 +65,9 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-pre {
-  font-family: monospace, monospace; /* 1 */
+ @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mitr:wght@200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Sriracha&display=swap');
+pre, a, h1, h2, h3, h4, h5, h6, p, blockquote, figure, dl, dd, ol, ul, figure, figcaption, hr {
+  font-family: "Noto Sans Thai", monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -105,7 +110,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: "Noto Sans Thai", sans-serif, monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -162,7 +167,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
+  font-family: "Noto Sans Thai", sans-serif, monospace, monospace; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */

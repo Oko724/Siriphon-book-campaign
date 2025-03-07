@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>BookSaw - Free Book Store HTML CSS Template</title>
+	<title>Siriphon book campaign</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +19,18 @@
 	<link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
 	<link rel="stylesheet" type="text/css" href="css/vendor.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mitr:wght@200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Sriracha&display=swap"
+		rel="stylesheet">
+	<style>
+		* {
+			font-family: "Noto Sans Thai", monospace, monospace !important;
+			/* 1 */
+		}
+	</style>
 
 </head>
 
@@ -50,9 +62,9 @@
 					<div class="col-md-6">
 						<div class="right-element">
 							<a href="#" class="user-account for-buy"><i
-									class="icon icon-user"></i><span>Account</span></a>
-							<a href="#" class="cart for-buy"><i class="icon icon-clipboard"></i><span>Cart:(0
-									$)</span></a>
+									class="icon icon-user"></i><span>บัญชีผู้ใช้</span></a>
+							<a href="#" class="cart for-buy"><i class="icon icon-clipboard"></i><span>ตะกร้า: (0
+									฿)</span></a>
 
 							<div class="action-menu">
 
@@ -61,8 +73,7 @@
 										<i class="icon icon-search"></i>
 									</a>
 									<form role="search" method="get" class="search-box">
-										<input class="search-field text search-input" placeholder="Search"
-											type="search">
+										<input class="search-field text search-input" placeholder="ค้นหา" type="search">
 									</form>
 								</div>
 							</div>
@@ -90,29 +101,17 @@
 						<nav id="navbar">
 							<div class="main-menu stellarnav">
 								<ul class="menu-list">
-									<li class="menu-item active"><a href="#home">Home</a></li>
-									<li class="menu-item has-sub">
-										<a href="#pages" class="nav-link">Pages</a>
+									<li class="menu-item active"><a href="#home">หน้าแรก</a></li>
 
-										<ul>
-											<li class="active"><a href="index.html">Home</a></li>
-											<li><a href="about.html">About <span class="badge bg-dark">PRO</span></a></li>
-											<li><a href="styles.html">Styles <span class="badge bg-dark">PRO</span></a></li>
-											<li><a href="blog.html">Blog <span class="badge bg-dark">PRO</span></a></li>
-											<li><a href="single-post.html">Post Single <span class="badge bg-dark">PRO</span></a></li>
-											<li><a href="shop.html">Our Store <span class="badge bg-dark">PRO</span></a></li>
-											<li><a href="single-product.html">Product Single <span class="badge bg-dark">PRO</span></a></li>
-											<li><a href="contact.html">Contact <span class="badge bg-dark">PRO</span></a></li>
-											<li><a href="thank-you.html">Thank You <span class="badge bg-dark">PRO</span></a></li>
-										</ul>
 
+									<li class="menu-item"><a href="#popular-books" class="nav-link">หนังสือยอดนิยม</a>
 									</li>
-									<li class="menu-item"><a href="#featured-books" class="nav-link">Featured</a></li>
-									<li class="menu-item"><a href="#popular-books" class="nav-link">Popular</a></li>
-									<li class="menu-item"><a href="#special-offer" class="nav-link">Offer</a></li>
-									<li class="menu-item"><a href="#latest-blog" class="nav-link">Articles</a></li>
-									<li class="menu-item"><a href="#download-app" class="nav-link">Download App</a></li>
-									<li class="menu-item"><a href="https://templatesjungle.gumroad.com/l/booksaw-free-html-bookstore-template" class="nav-link btn btn-outline-dark rounded-pill m-0" target="_blank">Get PRO</a></li>
+
+									<li class="menu-item"><a href="#latest-blog" class="nav-link">บทความ</a></li>
+									<li class="menu-item"><a
+											href="https://templatesjungle.gumroad.com/l/booksaw-free-html-bookstore-template"
+											class="nav-link btn btn-outline-dark rounded-pill m-0" target="_blank">ซื้อ
+											All members</a></li>
 								</ul>
 
 								<div class="hamburger">
@@ -132,6 +131,7 @@
 
 	</div><!--header-wrap-->
 
+
 	<section id="billboard">
 
 		<div class="container">
@@ -145,33 +145,28 @@
 					<div class="main-slider pattern-overlay">
 						<div class="slider-item">
 							<div class="banner-content">
-								<h2 class="banner-title">Life of the Wild</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
-									ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis
-									urna, a eu.</p>
+								<h2 class="banner-title">ชีวิตของสัตว์ป่า</h2>
+								<p>ในป่าลึกมีการต่อสู้เพื่อความอยู่รอดทุกวัน สัตว์ป่าต้องปรับตัวให้เข้ากับสภาพแวดล้อมที่เปลี่ยนแปลงอย่างรวดเร็วเพื่อหาอาหารและหลบภัยจากผู้ล่า พวกมันมีความสามารถในการเอาตัวรอดในสถานการณ์ที่ยากลำบาก เช่นเดียวกับการสร้างบ้านที่แข็งแรงเพื่อป้องกันตัวจากสภาพอากาศที่แปรปรวนและศัตรูจากภายนอก.</p>
 								<div class="btn-wrap">
-									<a href="#" class="btn btn-outline-accent btn-accent-arrow">Read More<i
-											class="icon icon-ns-arrow-right"></i></a>
+									<a href="#" class="btn btn-outline-accent btn-accent-arrow">อ่านเพิ่มเติม<i class="icon icon-ns-arrow-right"></i></a>
 								</div>
 							</div><!--banner-content-->
 							<img src="images/main-banner1.jpg" alt="banner" class="banner-image">
 						</div><!--slider-item-->
-
+					
 						<div class="slider-item">
 							<div class="banner-content">
-								<h2 class="banner-title">Birds gonna be Happy</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero
-									ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis
-									urna, a eu.</p>
+								<h2 class="banner-title">นกจะมีความสุข</h2>
+								<p>ในโลกของนก ทุกการเดินทางล้วนมีความสำคัญ ตั้งแต่การอพยพที่ยาวนานไปยังสถานที่ที่อบอุ่นในฤดูหนาว จนถึงการหาคู่เพื่อสืบพันธุ์และสร้างรังให้ปลอดภัย การที่นกมีความสุขหมายถึงการได้อยู่ในสภาพแวดล้อมที่เอื้อต่อการเจริญเติบโตและการอาศัยอยู่ในธรรมชาติที่สมดุล.</p>
 								<div class="btn-wrap">
-									<a href="#" class="btn btn-outline-accent btn-accent-arrow">Read More<i
-											class="icon icon-ns-arrow-right"></i></a>
+									<a href="#" class="btn btn-outline-accent btn-accent-arrow">อ่านเพิ่มเติม<i class="icon icon-ns-arrow-right"></i></a>
 								</div>
 							</div><!--banner-content-->
 							<img src="images/main-banner2.jpg" alt="banner" class="banner-image">
 						</div><!--slider-item-->
-
+					
 					</div><!--slider-->
+					
 
 					<button class="next slick-arrow">
 						<i class="icon icon-arrow-right"></i>
@@ -208,9 +203,9 @@
 
 					<div class="section-header align-center">
 						<div class="title">
-							<span>Some quality items</span>
+							<span>สินค้าคุณภาพบางส่วน</span>
 						</div>
-						<h2 class="section-title">Featured Books</h2>
+						<h2 class="section-title">หนังสือที่แนะนำ</h2>
 					</div>
 
 					<div class="product-list" data-aos="fade-up">
@@ -220,11 +215,11 @@
 								<div class="product-item">
 									<figure class="product-style">
 										<img src="images/product-item1.jpg" alt="Books" class="product-item">
-										<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-											Cart</button>
+										<button type="button" class="add-to-cart"
+											data-product-tile="add-to-cart">เพิ่มในตะกร้า</button>
 									</figure>
 									<figcaption>
-										<h3>Simple way of piece life</h3>
+										<h3>วิธีง่ายๆ ในการมีชีวิตที่สงบ</h3>
 										<span>Armor Ramsey</span>
 										<div class="item-price">$ 40.00</div>
 									</figcaption>
@@ -235,11 +230,11 @@
 								<div class="product-item">
 									<figure class="product-style">
 										<img src="images/product-item2.jpg" alt="Books" class="product-item">
-										<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-											Cart</button>
+										<button type="button" class="add-to-cart"
+											data-product-tile="add-to-cart">เพิ่มในตะกร้า</button>
 									</figure>
 									<figcaption>
-										<h3>Great travel at desert</h3>
+										<h3>การเดินทางที่ยอดเยี่ยมในทะเลทราย</h3>
 										<span>Sanchit Howdy</span>
 										<div class="item-price">$ 38.00</div>
 									</figcaption>
@@ -250,11 +245,11 @@
 								<div class="product-item">
 									<figure class="product-style">
 										<img src="images/product-item3.jpg" alt="Books" class="product-item">
-										<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-											Cart</button>
+										<button type="button" class="add-to-cart"
+											data-product-tile="add-to-cart">เพิ่มในตะกร้า</button>
 									</figure>
 									<figcaption>
-										<h3>The lady beauty Scarlett</h3>
+										<h3>ความงามของสการ์เล็ต</h3>
 										<span>Arthur Doyle</span>
 										<div class="item-price">$ 45.00</div>
 									</figcaption>
@@ -265,11 +260,11 @@
 								<div class="product-item">
 									<figure class="product-style">
 										<img src="images/product-item4.jpg" alt="Books" class="product-item">
-										<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-											Cart</button>
+										<button type="button" class="add-to-cart"
+											data-product-tile="add-to-cart">เพิ่มในตะกร้า</button>
 									</figure>
 									<figcaption>
-										<h3>Once upon a time</h3>
+										<h3>วันหนึ่งในอดีต</h3>
 										<span>Klien Marry</span>
 										<div class="item-price">$ 35.00</div>
 									</figcaption>
@@ -279,7 +274,6 @@
 						</div><!--ft-books-slider-->
 					</div><!--grid-->
 
-
 				</div><!--inner-content-->
 			</div>
 
@@ -287,7 +281,7 @@
 				<div class="col-md-12">
 
 					<div class="btn-wrap align-right">
-						<a href="#" class="btn-accent-arrow">View all products <i
+						<a href="#" class="btn-accent-arrow">ดูสินค้าทั้งหมด <i
 								class="icon icon-ns-arrow-right"></i></a>
 					</div>
 
@@ -295,6 +289,7 @@
 			</div>
 		</div>
 	</section>
+
 
 	<section id="best-selling" class="leaf-pattern-overlay">
 		<div class="corner-pattern-overlay"></div>
@@ -339,425 +334,184 @@
 		</div>
 	</section>
 
+	<section id="best-selling" class="leaf-pattern-overlay">
+		<div class="corner-pattern-overlay"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+	
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6">
+							<figure class="products-thumb">
+								<img src="images/single-image.jpg" alt="หนังสือขายดี" class="single-image">
+							</figure>
+						</div>
+	
+						<div class="col-md-6">
+							<div class="product-entry">
+								<h2 class="section-title divider">หนังสือขายดี</h2>
+	
+								<div class="products-content">
+									<div class="author-name">โดย ทิมเบอร์ ฮูด</div>
+									<h3 class="item-title">นกที่โบยบินด้วยความสุข</h3>
+									<p>การเดินทางผ่านธรรมชาติที่เต็มไปด้วยเรื่องราวของนกและชีวิตอิสระ นำเสนอแนวคิดเกี่ยวกับความสุขที่เกิดขึ้นจากการใช้ชีวิตอย่างเรียบง่ายและเป็นตัวของตัวเอง</p>
+									<div class="item-price">฿ 1,290</div>
+									<div class="btn-wrap">
+										<a href="#" class="btn-accent-arrow">ซื้อเลย <i class="icon icon-ns-arrow-right"></i></a>
+									</div>
+								</div>
+	
+							</div>
+						</div>
+	
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	</section>
+	
 	<section id="popular-books" class="bookshelf py-5 my-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-
+	
 					<div class="section-header align-center">
 						<div class="title">
-							<span>Some quality items</span>
+							<span>หนังสือแนะนำ</span>
 						</div>
-						<h2 class="section-title">Popular Books</h2>
+						<h2 class="section-title">หนังสือยอดนิยม</h2>
 					</div>
-
+	
 					<ul class="tabs">
-						<li data-tab-target="#all-genre" class="active tab">All Genre</li>
-						<li data-tab-target="#business" class="tab">Business</li>
-						<li data-tab-target="#technology" class="tab">Technology</li>
-						<li data-tab-target="#romantic" class="tab">Romantic</li>
-						<li data-tab-target="#adventure" class="tab">Adventure</li>
-						<li data-tab-target="#fictional" class="tab">Fictional</li>
+						<li data-tab-target="#all-genre" class="active tab">ทุกหมวดหมู่</li>
+						<li data-tab-target="#business" class="tab">ธุรกิจ</li>
+						<li data-tab-target="#technology" class="tab">เทคโนโลยี</li>
+						<li data-tab-target="#romantic" class="tab">โรแมนติก</li>
+						<li data-tab-target="#adventure" class="tab">ผจญภัย</li>
+						<li data-tab-target="#fictional" class="tab">นิยาย</li>
 					</ul>
-
+	
 					<div class="tab-content">
 						<div id="all-genre" data-tab-content class="active">
 							<div class="row">
-
+	
 								<div class="col-md-3">
 									<div class="product-item">
 										<figure class="product-style">
-											<img src="images/tab-item1.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
+											<img src="images/tab-item1.jpg" alt="หนังสือ" class="product-item">
+											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">เพิ่มลงตะกร้า</button>
 										</figure>
 										<figcaption>
-											<h3>Portrait photography</h3>
-											<span>Adam Silber</span>
-											<div class="item-price">$ 40.00</div>
+											<h3>ถ่ายภาพบุคคลให้ปัง</h3>
+											<span>อดัม ซิลเบอร์</span>
+											<div class="item-price">฿ 990</div>
 										</figcaption>
 									</div>
 								</div>
-
+	
 								<div class="col-md-3">
 									<div class="product-item">
 										<figure class="product-style">
-											<img src="images/tab-item2.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
+											<img src="images/tab-item2.jpg" alt="หนังสือ" class="product-item">
+											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">เพิ่มลงตะกร้า</button>
 										</figure>
 										<figcaption>
-											<h3>Once upon a time</h3>
-											<span>Klien Marry</span>
-											<div class="item-price">$ 35.00</div>
+											<h3>กาลครั้งหนึ่ง</h3>
+											<span>ไคล์น แมรี่</span>
+											<div class="item-price">฿ 850</div>
 										</figcaption>
 									</div>
 								</div>
-
+	
 								<div class="col-md-3">
 									<div class="product-item">
 										<figure class="product-style">
-											<img src="images/tab-item3.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
+											<img src="images/tab-item3.jpg" alt="หนังสือ" class="product-item">
+											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">เพิ่มลงตะกร้า</button>
 										</figure>
 										<figcaption>
-											<h3>Tips of simple lifestyle</h3>
-											<span>Bratt Smith</span>
-											<div class="item-price">$ 40.00</div>
+											<h3>เคล็ดลับชีวิตเรียบง่าย</h3>
+											<span>แบรตต์ สมิธ</span>
+											<div class="item-price">฿ 990</div>
 										</figcaption>
 									</div>
 								</div>
-
+	
 								<div class="col-md-3">
 									<div class="product-item">
 										<figure class="product-style">
-											<img src="images/tab-item4.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
+											<img src="images/tab-item4.jpg" alt="หนังสือ" class="product-item">
+											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">เพิ่มลงตะกร้า</button>
 										</figure>
 										<figcaption>
-											<h3>Just felt from outside</h3>
-											<span>Nicole Wilson</span>
-											<div class="item-price">$ 40.00</div>
+											<h3>ความรู้สึกที่ไม่สามารถบรรยาย</h3>
+											<span>นิโคล วิลสัน</span>
+											<div class="item-price">฿ 990</div>
 										</figcaption>
 									</div>
 								</div>
-
+	
 							</div>
-							<div class="row">
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item5.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Peaceful Enlightment</h3>
-											<span>Marmik Lama</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item6.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Great travel at desert</h3>
-											<span>Sanchit Howdy</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item7.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Life among the pirates</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item8.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Simple way of piece life</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-							</div>
-
 						</div>
+	
 						<div id="business" data-tab-content>
 							<div class="row">
 								<div class="col-md-3">
 									<div class="product-item">
 										<figure class="product-style">
-											<img src="images/tab-item2.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
+											<img src="images/tab-item2.jpg" alt="หนังสือ" class="product-item">
+											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">เพิ่มลงตะกร้า</button>
 										</figure>
 										<figcaption>
-											<h3>Peaceful Enlightment</h3>
-											<span>Marmik Lama</span>
-											<div class="item-price">$ 40.00</div>
+											<h3>แนวทางสร้างธุรกิจที่ยั่งยืน</h3>
+											<span>มาร์มิค ลามะ</span>
+											<div class="item-price">฿ 1,050</div>
 										</figcaption>
 									</div>
 								</div>
-
+	
 								<div class="col-md-3">
 									<div class="product-item">
 										<figure class="product-style">
-											<img src="images/tab-item4.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
+											<img src="images/tab-item4.jpg" alt="หนังสือ" class="product-item">
+											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">เพิ่มลงตะกร้า</button>
 										</figure>
 										<figcaption>
-											<h3>Great travel at desert</h3>
-											<span>Sanchit Howdy</span>
-											<div class="item-price">$ 40.00</div>
+											<h3>การเดินทางสู่ทะเลทราย</h3>
+											<span>แซนชิต เฮาว์ดี้</span>
+											<div class="item-price">฿ 1,050</div>
 										</figcaption>
 									</div>
 								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item6.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Life among the pirates</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item8.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Simple way of piece life</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
+	
 							</div>
 						</div>
-
+	
 						<div id="technology" data-tab-content>
 							<div class="row">
 								<div class="col-md-3">
 									<div class="product-item">
 										<figure class="product-style">
-											<img src="images/tab-item1.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
+											<img src="images/tab-item1.jpg" alt="หนังสือ" class="product-item">
+											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">เพิ่มลงตะกร้า</button>
 										</figure>
 										<figcaption>
-											<h3>Peaceful Enlightment</h3>
-											<span>Marmik Lama</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item3.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Great travel at desert</h3>
-											<span>Sanchit Howdy</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item5.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Life among the pirates</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item7.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Simple way of piece life</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
+											<h3>อนาคตแห่ง AI และเทคโนโลยี</h3>
+											<span>ดร. วีระพงษ์ คงมั่น</span>
+											<div class="item-price">฿ 1,200</div>
 										</figcaption>
 									</div>
 								</div>
 							</div>
 						</div>
-
-						<div id="romantic" data-tab-content>
-							<div class="row">
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item1.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Peaceful Enlightment</h3>
-											<span>Marmik Lama</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item3.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Great travel at desert</h3>
-											<span>Sanchit Howdy</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item5.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Life among the pirates</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item7.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Simple way of piece life</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div id="adventure" data-tab-content>
-							<div class="row">
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item5.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Life among the pirates</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item7.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Simple way of piece life</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div id="fictional" data-tab-content>
-							<div class="row">
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item5.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Life among the pirates</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-
-								<div class="col-md-3">
-									<div class="product-item">
-										<figure class="product-style">
-											<img src="images/tab-item7.jpg" alt="Books" class="product-item">
-											<button type="button" class="add-to-cart" data-product-tile="add-to-cart">Add to
-												Cart</button>
-										</figure>
-										<figcaption>
-											<h3>Simple way of piece life</h3>
-											<span>Armor Ramsey</span>
-											<div class="item-price">$ 40.00</div>
-										</figcaption>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div><!--inner-tabs-->
-
-			</div>
-		</div>
+	
+					</div> <!-- ปิด tab-content -->
+				</div> <!-- ปิด col-md-12 -->
+			</div> <!-- ปิด row -->
+		</div> <!-- ปิด container -->
 	</section>
+	
 
 	<section id="quotation" class="align-center pb-5 mb-5">
 		<div class="inner-content">
@@ -796,7 +550,7 @@
 									<div class="item-price">
 										<span class="prev-price">$ 50.00</span>$ 40.00
 									</div>
-								</div>
+							</div>
 							</figcaption>
 
 							<div class="product-item">
@@ -811,7 +565,7 @@
 									<div class="item-price">
 										<span class="prev-price">$ 30.00</span>$ 38.00
 									</div>
-								</div>
+							</div>
 							</figcaption>
 
 							<div class="product-item">
@@ -826,7 +580,7 @@
 									<div class="item-price">
 										<span class="prev-price">$ 35.00</span>$ 45.00
 									</div>
-								</div>
+							</div>
 							</figcaption>
 
 							<div class="product-item">
@@ -841,7 +595,7 @@
 									<div class="item-price">
 										<span class="prev-price">$ 25.00</span>$ 35.00
 									</div>
-								</div>
+							</div>
 							</figcaption>
 
 							<div class="product-item">
